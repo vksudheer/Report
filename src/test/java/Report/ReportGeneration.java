@@ -27,7 +27,7 @@ public class ReportGeneration {
        Assert.assertEquals(element.getText(),"Sign In");
    }
    @Test(priority = 4)
-    public void clickForSignIn(){
+   public void clickForSignIn(){
        driver.findElement(By.xpath("/html/body/nav/div/a[2]")).click();
        }
      @Test(priority = 5 )
